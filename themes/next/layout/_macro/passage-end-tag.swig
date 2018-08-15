@@ -1,5 +1,5 @@
 <div>
     {% if not is_index %}
-        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------鏈枃缁撴潫<i class="fa fa-heart-o"></i>鎰熻阿鎮ㄧ殑闃呰-------------</div>
     {% endif %}
 </div>
