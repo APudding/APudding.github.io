@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-30T09:18:03.402Z</updated>
+  <updated>2018-12-30T09:40:19.042Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,26 +17,26 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>JS-谈谈函数</title>
     <link href="http://yoursite.com/2018/12/30/%E8%B0%88%E8%B0%88JavaScript%E4%B8%AD%E7%9A%84%E5%87%BD%E6%95%B0/"/>
     <id>http://yoursite.com/2018/12/30/谈谈JavaScript中的函数/</id>
-    <published>2018-12-30T09:18:03.395Z</published>
-    <updated>2018-12-30T09:18:03.402Z</updated>
+    <published>2018-12-30T09:31:00.000Z</published>
+    <updated>2018-12-30T09:40:19.042Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;###谈谈JavaScript中的函数&lt;br&gt;    JavaScript是一个面向对象的语言，所以函数也是一个对象，而函数名则是一个指向函数对象的指针。对于定义函数的方法，有以下几种的方式：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;1. 函数声明
-    function
-        
-      
+      &lt;p&gt;#谈谈JavaScript中的函数&lt;br&gt;JavaScript是一个面向对象的语言，所以函数也是一个对象，而函数名则是一个指向函数对象的指针。所以什么是函数呢？&lt;/p&gt;
     
     </summary>
     
+      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="JS" scheme="http://yoursite.com/tags/JS/"/>
+    
+      <category term="函数定义" scheme="http://yoursite.com/tags/%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89/"/>
+    
+      <category term="立即执行函数" scheme="http://yoursite.com/tags/%E7%AB%8B%E5%8D%B3%E6%89%A7%E8%A1%8C%E5%87%BD%E6%95%B0/"/>
     
   </entry>
   
@@ -67,7 +67,7 @@
     <link href="http://yoursite.com/2018/08/15/JS-%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%92%8C%E9%97%AD%E5%8C%85/"/>
     <id>http://yoursite.com/2018/08/15/JS-作用域和闭包/</id>
     <published>2018-08-15T07:24:00.000Z</published>
-    <updated>2018-08-15T13:47:56.726Z</updated>
+    <updated>2018-12-30T09:39:16.017Z</updated>
     
     <summary type="html">
     
@@ -83,8 +83,6 @@
       <category term="JS" scheme="http://yoursite.com/tags/JS/"/>
     
       <category term="作用域" scheme="http://yoursite.com/tags/%E4%BD%9C%E7%94%A8%E5%9F%9F/"/>
-    
-      <category term="闭包" scheme="http://yoursite.com/tags/%E9%97%AD%E5%8C%85/"/>
     
   </entry>
   
