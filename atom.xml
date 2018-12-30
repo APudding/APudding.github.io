@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-15T13:47:56.726Z</updated>
+  <updated>2018-12-30T09:18:03.402Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/12/30/%E8%B0%88%E8%B0%88JavaScript%E4%B8%AD%E7%9A%84%E5%87%BD%E6%95%B0/"/>
+    <id>http://yoursite.com/2018/12/30/谈谈JavaScript中的函数/</id>
+    <published>2018-12-30T09:18:03.395Z</published>
+    <updated>2018-12-30T09:18:03.402Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;###谈谈JavaScript中的函数&lt;br&gt;    JavaScript是一个面向对象的语言，所以函数也是一个对象，而函数名则是一个指向函数对象的指针。对于定义函数的方法，有以下几种的方式：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1. 函数声明
+    function
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

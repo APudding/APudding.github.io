@@ -81,17 +81,17 @@
 
 
 
-<meta name="description" content="编程小白的自我修养">
-<meta property="og:type" content="website">
-<meta property="og:title" content="分类">
-<meta property="og:url" content="http://yoursite.com/categories/index.html">
+<meta name="description" content="###谈谈JavaScript中的函数    JavaScript是一个面向对象的语言，所以函数也是一个对象，而函数名则是一个指向函数对象的指针。对于定义函数的方法，有以下几种的方式： 1. 函数声明     function sum(num1,num2){         return num1+num2;     }     函数声明，就是通过function关键字来定义声明一个函数，并且制定">
+<meta property="og:type" content="article">
+<meta property="og:title" content="杂院">
+<meta property="og:url" content="http://yoursite.com/2018/12/30/谈谈JavaScript中的函数/index.html">
 <meta property="og:site_name" content="杂院">
-<meta property="og:description" content="编程小白的自我修养">
+<meta property="og:description" content="###谈谈JavaScript中的函数    JavaScript是一个面向对象的语言，所以函数也是一个对象，而函数名则是一个指向函数对象的指针。对于定义函数的方法，有以下几种的方式： 1. 函数声明     function sum(num1,num2){         return num1+num2;     }     函数声明，就是通过function关键字来定义声明一个函数，并且制定">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-15T13:47:56.726Z">
+<meta property="og:updated_time" content="2018-12-30T09:18:03.402Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="分类">
-<meta name="twitter:description" content="编程小白的自我修养">
+<meta name="twitter:title" content="杂院">
+<meta name="twitter:description" content="###谈谈JavaScript中的函数    JavaScript是一个面向对象的语言，所以函数也是一个对象，而函数名则是一个指向函数对象的指针。对于定义函数的方法，有以下几种的方式： 1. 函数声明     function sum(num1,num2){         return num1+num2;     }     函数声明，就是通过function关键字来定义声明一个函数，并且制定">
 
 
 
@@ -121,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/12/30/谈谈JavaScript中的函数/"/>
 
 
 
 
 
-  <title>分类 | 杂院</title>
+  <title> | 杂院</title>
   
 
 
@@ -276,33 +276,205 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/30/谈谈JavaScript中的函数/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="一杆鱼枪">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="杂院">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">分类</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
+          <h1 class="post-title" itemprop="name headline"></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-30T17:18:03+08:00">
+                2018-12-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        
-      </div>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>###谈谈JavaScript中的函数<br>    JavaScript是一个面向对象的语言，所以函数也是一个对象，而函数名则是一个指向函数对象的指针。对于定义函数的方法，有以下几种的方式：</p>
+<pre><code>1. 函数声明
+    function sum(num1,num2){
+        return num1+num2;
+    }
+    函数声明，就是通过function关键字来定义声明一个函数，并且制定一个函数名。
+2. 函数表达式
+    var sum = function(num1,num2){
+        return num1+num2;
+    }
+    函数表达式即function关键字去定义一个变量后，不指定函数名，而是将这个函数给赋予一个变量，通过这个变量去定义。
+3. 匿名函数
+    function  (num1,num2) {
+        return num1+num2;
+    }
+    所以匿名函数，顾名思义就是没有函数名，当然之前讲到的函数表达式，赋予给一个变量的就是一个匿名函数。
+4. 定义Function实例
+    var sayHi = new Function(&quot;sName&quot;, &quot;sMessage&quot;,“alert(&apos;Hello,&apos; + sName + sMessage);&quot;);
+    其中 &quot;sName&quot;, &quot;sMessage&quot;为参数名，“alert(&apos;Hello,&apos; + sName + sMessage);&quot;为函数体。
+    调用的时候也是一样例如sayHi(&quot;Zhang, &quot;,&quot;come here!&quot;);
+
+对于函数声明和函数表达式，它们的不同点在于使用函数声明的时候，会通过提升当前作用域上的函数声明，即函数定义了window对象的方法，而函数表达式则须的等到Javascript引擎执行到它所在行时，才会从上而下一行一行地解析函数表达式。
+例如对应情境：
+情形1：调用错误(sum作为函数对象，必须先定义再引用)
+    alert(sum(10,10)); // 出错
+    var sum= function(num1,num2){
+        return num1+num2;
+    }
+情形2：调用正确(函数定义是全局的，可以在定义前引用)
+    alert(sum(10,10)); // 20
+    function sum(num1,num2){
+        return num1+num2;
+}
+
+以上都是些函数很基本的定义方式，有那么多定义方式其实我经常用的其实也只有函数定义和函数表达式，但也经常发现在调用函数的时候，除了通过函数定义之后去调用外，还有种方式就是立即执行函数(IIFE)，即 (function(){})()。
+其实这也算函数定义和函数表达式的区别之一，例如说：
+    function(){ console.log(1) }(); //出错
+上面这个代码出现报错&quot;Uncaught SyntaxError: Unexpected token (&quot;，因为在执行这段代码的时候，会将其看作是一个函数声明而不是一个函数表达式，而函数声明需要函数名，所以执行到function后的第一个括号的左括号(时就会报错了，因为这个左括号之前需要一个函数名嘛。
+    那假设加上函数名之后呢？
+    function foo(){ console.log(1) }(); //出错
+这样也仍然出错，这是为什么呢，我明明把之前遇到的问题解决了？我们把目光看到表达式最后面的一对括号上，在一个函数声明后面加上了一对括号难倒不感觉有点违和吗，其实现在这对括号仅仅是分组运算符而已，啥是分组运算符咧，其实就跟我们运算式里用来控制优先级的小括号一样，我们可以把上面的代码看成这样：
+    function foo(){ console.log(1) }
+    ();
+相当于把是分开的两个操作，而执行下面的()的表达式运算时，()里的表达式不能为空，所以上面的代码会报&quot;Uncaught SyntaxError: Unexpected token )&quot;的错误，因为右括号)前没有内容。(不信可以尝试function foo(){ console.log(1) }(console.log(2));就不会报错，而且出现的结果是2)
+所以这个立即执行函数是怎样的呢？其实也就是下面的两种常见写法（效果是一样的）
+    (function(){ /* code */ }()); 
+    (function(){ /* code */ })();
+像我们之前讲的，Javascript引擎看到function关键字会认为是函数声明语句，但如果    Javascript引擎先看到小括号呢？那它就自动把里面的代码识别为一个函数表达式而不是一个函数声明。
+但其实要让Javascript引擎认为这是一个表达式的方法还有很多，例如：
+!function(){}();
++function(){}();
+-function(){}();
+~function(){}();
+void function(){}();
+new function(){ /* code */ }
+new function(){ /* code */ }() // 只有传递参数时，才需要最后那个圆括号。
+那为啥要有立即执行函数呢，存在即合理嘛，有了立即执行函数，我们就可以解决一下全局变量污染问题。（这又想，啥是全局变量污染问题，其实就JavaScript 可以随意定义保存所有应用资源的全局变量。但全局变量可以削弱程序灵活性，增大了模块之间的耦合性。在多人协作时，如果定义过多的全局变量 有可能造成全局变量冲突），立即执行函数也就可以把作用域隔离开来，此时若是想访问全局对象，将全局对象以参数形式传进去即可。以前用jQuery的时候其实用的都是用的立即执行函数的原理。
+与此同时，立即执行函数又与闭包有不得不说的关系，关于闭包就留在下一次详细来谈谈吧。
+</code></pre>
       
     </div>
     
     
     
+	
+	<div>
+	  
+		<div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-heart-o"></i>感谢您的阅读-------------</div>
+    
+</div>
+	  
+	</div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/08/15/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
